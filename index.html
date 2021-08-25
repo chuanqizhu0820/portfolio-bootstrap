@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio prototype</title>
+</head>
+<body style="background-color: #191765; color: white;">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid" >
+              <a class="navbar-brand" href="#">Chuanqi-Amin</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                  <a class="nav-link active" href="#">About</a>
+                  <a class="nav-link active" href="#">Contact</a>
+                  <a class="nav-link" href="#" tabindex="-1"><img src="./src/msg.png" alt="msg logo"></a>
+                </div>
+              </div>
+          </nav>
+    </header>
+    <section class="portfolio">
+        <div class="jumbotron text-center" style="background-color: #191765; color: white;">
+            <h1>Chuanqi / Amin</h1>
+            <h2 class="font-weight-light">Software Developer</h2>
+        </div>
+        <div class="text-center" style="margin: 88px 35% 0 35%;">
+          <p>I am a full-stack web developer, who can help you build your website according to your needs of all kinds. You can take a look at my recent projects below.</p>
+          <hr>
+          <div class="container">
+            <div class="row d-flex justify-content-between" >
+              <div class="text-left">
+              <h3 class="font-weight-lighter">Language</h3>
+                <ul style="list-style: none; padding-left: 0;">
+                  <li>Javascript</li>
+                  <li>Ruby</li>
+                  <li>Html</li>
+                  <li>Css</li>
+                </ul>
+                </div>
+                <div class="text-left">
+              <h3 class="font-weight-lighter">Frameworks</h3>
+              <ul style="list-style: none; padding-left: 0;">
+                <li>Javascript</li>
+                <li>Ruby</li>
+                <li>Html</li>
+                <li>Css</li>
+              </ul>
+            </div>
+            <div class="text-left">
+              <h3 class="font-weight-lighter">Skills</h3>
+              <ul style="list-style: none; padding-left: 0;">
+                <li>Javascript</li>
+                <li>Ruby</li>
+                <li>Html</li>
+                <li>Css</li>
+              </ul>
+            </div>
+            </div>
+            <hr>
+          </div>
+        </div>
+    </section>
+    <section class="my-work d-flex justify-content-around flex-wrap" style="margin-top: 100px;color: black;">
+
+        <div class="card" style="width: 22rem; margin-bottom: 25px;">
+            <img src="./work_img/Portfolio.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Multi-Post Stories</h5>
+              <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+              <button type="button" class="btn" data-toggle="modal" data-target="#first" style="background-color: rgba(125, 115, 252, 1); color:white">See Project</button>
+            </div>
+          </div>
+
+          <div class="card" style="width: 22rem; margin-bottom: 25px;">
+            <img src="./work_img/Portfolio1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Multi-Post Stories</h5>
+              <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+              <button type="button" class="btn" data-toggle="modal" data-target="#second" style="background-color: rgba(125, 115, 252, 1); color:white">See Project</button>
+            </div>
+          </div>
+
+          <div class="modal fade" id="first" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="card" style="width: 18rem;">
+                <img src="./work_img/Portfolio.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Multi-Post Stories</h5>
+                  <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                  <div class="text-center"><button type="button" class="btn" data-toggle="modal" data-target="#exampleModal" style="background-color: rgb(219, 91, 91); color:white">Close</button></div>
+                </div>
+              </div>
+          </div>
+
+          <div class="modal fade" id="second" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="card" style="width: 18rem;">
+                <img src="./work_img/Portfolio1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Multi-Post Stories</h5>
+                  <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                  <div class="text-center"><button type="button" class="btn" data-toggle="modal" data-target="#exampleModal" style="background-color: rgb(219, 91, 91); color:white">Close</button></div>
+                </div>
+              </div>
+          </div>
+
+    </section>
+    <section class="contact d-flex justify-content-center" style="margin-top: 100px;">
+      <form style="width: 40%;">
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Text Input" style="border-radius: 0px;" required>
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="jeremy@gmail.com" aria-describedby="emailHelp" style="border-radius: 0px;" required>
+        </div>
+        <div class="mb-3">
+          <textarea type="text" class="form-control" placeholder="Enter text here" style="border-radius: 0px;" required></textarea>
+        </div>
+        <div class="text-center mb-3">
+        <button type="submit" class="btn" style="background-color: rgba(125, 115, 252, 1); color:white">Submit</button>
+        </div>
+      </form>
+    </section>
+
+    
+</body>
+</html>
