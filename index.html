@@ -72,22 +72,49 @@
         </div>
     </section>
     <section class="my-work d-flex justify-content-around" style="margin-top: 100px;">
+
         <div class="card" style="width: 18rem;">
             <img src="./work_img/Portfolio.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Multi-Post Stories</h5>
               <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-              <a href="#" class="btn" style="background-color: rgba(125, 115, 252, 1); color:white">See Project</a>
+              <button type="button" class="btn" data-toggle="modal" data-target="#first" style="background-color: rgba(125, 115, 252, 1); color:white">See Project</button>
             </div>
           </div>
+
           <div class="card" style="width: 18rem;">
             <img src="./work_img/Portfolio1.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Multi-Post Stories</h5>
               <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-              <a href="#" class="btn" style="background-color: rgba(125, 115, 252, 1); color:white">See Project</a>
+              <button type="button" class="btn" data-toggle="modal" data-target="#second" style="background-color: rgba(125, 115, 252, 1); color:white">See Project</button>
             </div>
           </div>
+
+          <div class="modal fade" id="first" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="card" style="width: 18rem;">
+                <img src="./work_img/Portfolio.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Multi-Post Stories</h5>
+                  <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                  <div class="text-center"><button type="button" class="btn" data-toggle="modal" data-target="#exampleModal" style="background-color: rgb(219, 91, 91); color:white">Close</button></div>
+                </div>
+              </div>
+          </div>
+
+          <div class="modal fade" id="second" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="card" style="width: 18rem;">
+                <img src="./work_img/Portfolio1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Multi-Post Stories</h5>
+                  <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                  <div class="text-center"><button type="button" class="btn" data-toggle="modal" data-target="#exampleModal" style="background-color: rgb(219, 91, 91); color:white">Close</button></div>
+                </div>
+              </div>
+          </div>
+
     </section>
     <section class="contact d-flex justify-content-center" style="margin-top: 100px;">
       <form style="width: 40%;">
@@ -105,5 +132,7 @@
         </div>
       </form>
     </section>
+
+    
 </body>
 </html>
